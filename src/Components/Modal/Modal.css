@@ -1,0 +1,48 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 40%;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+.title{
+    height: 50%;
+    font-size: 1.4em;
+}
+.Modal textarea{
+    font-size: 1.4em;
+}
+
+.Buttons {
+    width: 468px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+  }
+  
+  .Buttons button {
+    border-radius: 5px;
+    box-shadow: 3px, 3px, 3px, 3px (rgba(0, 0, 0, 0.6));
+    color: white;
+    background-color: #009688;
+    width: 80px;
+    height: 30px;
+  }
+  
+
+@media (min-width: 500px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
