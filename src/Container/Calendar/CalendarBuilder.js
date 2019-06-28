@@ -10,7 +10,7 @@ class CalendarBuilder extends Component {
     date: {},
     notes: {
       "13 52019": "todo sms",
-      "11 12019": "make sms"
+      "2 62019": "Make Job offer to Artem Lutsenko"
     },
     modal:{
       title: null,
